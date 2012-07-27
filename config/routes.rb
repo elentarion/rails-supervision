@@ -1,4 +1,8 @@
 RailsSupervision::Application.routes.draw do
+  resources :operating_systems
+
+  resources :machines
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
